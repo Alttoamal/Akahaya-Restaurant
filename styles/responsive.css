@@ -1,0 +1,429 @@
+@media screen and (max-width: 600px) {
+  .navbar-nav {
+    justify-content: center;
+    flex-direction: column !important;
+    text-align: center;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .navbar-nav li a {
+    flex-direction: row-reverse !important;
+  }
+
+  .booknow-button {
+    justify-content: center;
+    flex-direction: column !important;
+    text-align: center;
+    align-items: flex-end;
+  }
+  .navbar-brand img {
+    width: 80px;
+  }
+
+  .first-row {
+    gap: 40px;
+  }
+
+  .second-row {
+    padding-top: 30px;
+  }
+
+  .third-row,
+  .fourth-row {
+    padding-top: 0px;
+  }
+
+  .booknow img {
+    margin: 0px;
+  }
+
+  .offer-poster img {
+    padding: 0px 20px;
+  }
+  .banner-section-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.5px;
+    color: #ffffff;
+  }
+
+  .art-section p {
+    padding: 50px 40px;
+    font-size: 49px;
+    line-height: 42.8px;
+  }
+
+  .delicious1 p {
+    padding: 50px 50px;
+    font-size: 49px;
+    line-height: 42.8px;
+  }
+
+  .tile {
+    padding: 1em;
+  }
+  .restaurant-images img {
+    width: 100%;
+  }
+  .frame {
+    width: 100%;
+  }
+  .birdimage p {
+    font-size: 20px;
+  }
+  .birdimage ul li {
+    font-size: 13px;
+  }
+  #loading img {
+    width: 250px;
+  }
+
+  .offer {
+    width: 90%;
+  }
+  .next1 img{
+    width: 13px;
+  }
+
+  .rightimg{
+    width: 13px;
+  }
+
+  .previous img {
+    width: 13px;
+  }
+
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 350px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+
+  .slider {
+    width: 310px !important;
+    height:430px!important;
+  }
+
+  .dot {
+    width: 10px!important;
+    height: 10px!important;
+
+  }
+  
+  
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .navbar-nav {
+    justify-content: center;
+    flex-direction: row !important;
+    text-align: end;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 70vw;
+  }
+  .navbar-brand img {
+    width: 120px !important;
+  }
+  .footer-logo img {
+    width: 120px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    height: auto !important;
+  }
+
+  .navlist li a {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 600;
+    padding: 0px 10px;
+    color: #fbfbfb;
+  }
+
+  /* .navbar-brand img {
+    width: 120px;
+  } */
+  .booknow {
+    margin-left: 0px;
+    margin: 20px 0px;
+  }
+
+  .navoverall {
+    margin: 0px;
+  }
+  .location-images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1185px) {
+  .navlist li a {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #fbfbfb;
+  }
+
+  .navbar-brand img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .halborn {
+    width: 100%;
+  }
+
+  .meal {
+    width: 100%;
+  }
+
+  .ellipse {
+    width: 480px;
+    height: 430px;
+  }
+  .ellipse-para {
+    font-size: 49px;
+  }
+
+  .trafaigar {
+    width: 100%;
+  }
+
+  .location-container h5 {
+    font-size: 22px;
+  }
+
+  .halborn p {
+    font-size: 15px;
+  }
+
+  .trafaigar p {
+    font-size: 15px;
+  }
+
+  .location-images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .footer-section-wrapper {
+    height: auto;
+  }
+  /* .restaurant-section-container {
+    width: 100%;
+  } */
+
+  .contact {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .media {
+    justify-content: center;
+  }
+  .footer-content-contact {
+    line-height: 1; /* Adjust line height */
+  }
+
+  .footer-content p a {
+    font-size: 12px;
+  }
+
+  .footer-content-contact p a {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .contact h5 {
+    font-size: 15px;
+  }
+
+  .location h5 {
+    font-size: 15px;
+  }
+  .footer-child-container ul li a {
+    font-size: 10px;
+  }
+
+  .footer-logo img {
+    width: 165px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .footer-content p a {
+    font-size: 14px;
+  }
+
+  .footer-content-contact p a {
+    font-size: 14px;
+  }
+
+  .contact h5 {
+    font-size: 17px;
+  }
+
+  .location h5 {
+    font-size: 17px;
+  }
+  .footer-child-container ul li a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .footer-section-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .footer-logo {
+    margin: 0;
+  }
+
+  .footer-logo img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .art-section {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .banner-section-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50.5px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1070px) {
+  .banner-section-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62.5px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer-child-section {
+    height: auto;
+  }
+  .footer-child-container ul li a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .framestack {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .frame {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1360px) {
+  .art-section p {
+    padding: 30px 30px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.8px;
+  }
+  .delicious1 p {
+    padding: 30px 50px;
+    line-height: 62.8px;
+    font-size: 50px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .tile {
+    flex: 1 0 50%;
+  }
+}
+
+/* Adjust for small screens */
+@media (max-width: 767.98px) {
+  .tile {
+    flex: 1 0 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .tile {
+    flex: 1 0 100%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .modal__content {
+    max-width: 400px;
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .centered {
+    font-size: 15px;
+  }
+}
+/* .............................................. */

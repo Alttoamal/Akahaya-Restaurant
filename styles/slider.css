@@ -1,0 +1,56 @@
+.slider {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    height: 620px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+  }
+  
+  .active {
+    transform: translateX(0%) translateZ(0);
+    transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+    z-index: 100;
+  }
+  
+  .prev {
+    transform: translateX(-100%) translateZ(0);
+    transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+    z-index: 90;
+  }
+  
+  .next {
+    transform: translateX(100%) translateZ(0)!important;
+    transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1)!important;
+    z-index: 90;
+  }
+  
+  .dots {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 200; 
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    border:1px solid rgba(199, 162, 84, 1);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: rgba(199, 162, 84, 1);
+  }
+  
